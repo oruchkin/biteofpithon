@@ -1,27 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
 </head>
 
 <body>
+
     <div class="container">
-        <div class="header">
-            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores quia, doloribus vel deserunt sint
-                velit ex perspiciatis reprehenderit veniam veritatis cum beatae voluptas eaque nobis et tempora iste
-                voluptatibus aperiam.</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque voluptates cumque illo
+                    dolores quo, molestias distinctio perspiciatis suscipit quas.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam atque optio fugiat nostrum quod
+                    iusto hic ipsa itaque magni aperiam accusamus, repudiandae architecto minima cumque, nemo modi autem
+                    ad odit commodi error. Veniam obcaecati et iste, magnam tempore quae recusandae tempora corporis
+                    dicta architecto magni quis beatae error ea molestias!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque perferendis aliquid
+                    reprehenderit! Similique sint praesentium modi, commodi non nam placeat accusamus deserunt ipsum
+                    esse. Nam ut sequi atque doloremque officia quibusdam, nulla tenetur ullam dolor quo veritatis eos
+                    sunt cumque excepturi dolore error iure? Atque nostrum quos consequatur voluptate in, hic nisi
+                    incidunt quaerat quisquam illum officia ratione? Suscipit laborum quas, consequatur commodi modi
+                    quia accusamus deleniti numquam, asperiores soluta nobis dolor, iste expedita? Iure fugit similique
+                    doloribus culpa.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque voluptates cumque illo
+                    dolores quo, molestias distinctio perspiciatis suscipit quas.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam atque optio fugiat nostrum quod
+                    iusto hic ipsa itaque magni aperiam accusamus, repudiandae architecto minima cumque, nemo modi autem
+                    ad odit commodi error. Veniam obcaecati et iste, magnam tempore quae recusandae tempora corporis
+                    dicta architecto magni quis beatae error ea molestias!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque perferendis aliquid
+                    reprehenderit! Similique sint praesentium modi, commodi non nam placeat accusamus deserunt ipsum
+                    esse. Nam ut sequi atque doloremque officia quibusdam, nulla tenetur ullam dolor quo veritatis eos
+                    sunt cumque excepturi dolore error iure? Atque nostrum quos consequatur voluptate in, hic nisi
+                    incidunt quaerat quisquam illum officia ratione? Suscipit laborum quas, consequatur commodi modi
+                    quia accusamus deleniti numquam, asperiores soluta nobis dolor, iste expedita? Iure fugit similique
+                    doloribus culpa.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque voluptates cumque illo
+                    dolores quo, molestias distinctio perspiciatis suscipit quas.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam atque optio fugiat nostrum quod
+                    iusto hic ipsa itaque magni aperiam accusamus, repudiandae architecto minima cumque, nemo modi autem
+                    ad odit commodi error. Veniam obcaecati et iste, magnam tempore quae recusandae tempora corporis
+                    dicta architecto magni quis beatae error ea molestias!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque perferendis aliquid
+                    reprehenderit! Similique sint praesentium modi, commodi non nam placeat accusamus deserunt ipsum
+                    esse. Nam ut sequi atque doloremque officia quibusdam, nulla tenetur ullam dolor quo veritatis eos
+                    sunt cumque excepturi dolore error iure? Atque nostrum quos consequatur voluptate in, hic nisi
+                    incidunt quaerat quisquam illum officia ratione? Suscipit laborum quas, consequatur commodi modi
+                    quia accusamus deleniti numquam, asperiores soluta nobis dolor, iste expedita? Iure fugit similique
+                    doloribus culpa.</p>
+            </div>
         </div>
-        <div class="nav"></div>
-        <div class="main">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, sint nisi, aspernatur laboriosam vero sed quas corporis accusamus harum illo fugiat! Unde aspernatur soluta, sunt pariatur consequatur at ratione expedita mollitia. Ducimus suscipit voluptate expedita eum provident sit tempora veniam delectus, perferendis architecto placeat autem accusamus eligendi culpa cumque quo. Dolorem debitis voluptates quia beatae! Praesentium maxime aut sed officiis quam, perferendis beatae inventore dolor unde vero atque magni facilis iusto dolorum itaque cumque ab dignissimos neque fugiat. Quidem sint, corrupti qui doloremque aspernatur quaerat eum aut cupiditate dolorem soluta perferendis natus rem voluptatem excepturi sunt consectetur quam eaque amet eius animi asperiores. Reprehenderit aliquid possimus non praesentium eaque soluta perspiciatis odio vero dicta, voluptates atque, minus doloremque iusto obcaecati adipisci accusamus dolor rerum dolorem, accusantium quae distinctio officiis? Recusandae placeat totam blanditiis libero fugit dolorum veniam? Sequi cum, id quisquam soluta, excepturi totam in quas officiis laboriosam minus explicabo tenetur expedita velit animi voluptate tempora architecto asperiores obcaecati fuga voluptas eum consequuntur? Enim itaque, earum doloremque voluptatem voluptatibus at, iste quasi voluptatum illum beatae totam, soluta distinctio maiores! Non iste tempore laudantium quaerat assumenda fugit, aut repellat tempora quod totam nobis suscipit. Ex ipsam quia vero sed eveniet tempora aut eligendi quidem libero ad minus quam aliquid accusantium deserunt dicta atque architecto, velit corrupti impedit distinctio. Hic repudiandae sit, tempore neque quis delectus maiores fugiat, exercitationem laudantium nemo, animi dolore molestias? Velit provident aliquam odit minima recusandae aliquid dolores asperiores, vero consectetur adipisci totam in ipsum eum deleniti, itaque facilis ipsa dolore libero dolor distinctio nam enim! Veniam quo eveniet consectetur corporis soluta accusantium tempora labore asperiores, debitis nam, sapiente a repellendus, perspiciatis nisi maiores exercitationem obcaecati excepturi veritatis quae earum quidem? Quis excepturi unde cupiditate sint saepe, perspiciatis cum laboriosam aspernatur odio debitis minus voluptates ipsa, molestiae minima nulla? At repellendus eius numquam inventore dignissimos debitis consequatur veniam perferendis ab ex saepe earum rem consequuntur officiis cum id autem, sapiente sint commodi labore, neque molestiae sequi corporis? Quia quidem blanditiis magni debitis veritatis autem animi, laboriosam ab perspiciatis exercitationem explicabo dicta maiores quam soluta ullam earum dolorum eum a distinctio. Tempore inventore officiis, dolore odio tenetur magni alias quis placeat deleniti velit sit qui odit a officia perspiciatis ab unde, quos quisquam cum consequatur reiciendis fugit. Id, maiores tempora voluptatum cumque nobis totam aperiam? Temporibus, illo. Quas, natus tempore quis molestiae voluptatibus repellendus quaerat ea illum quam atque fugit dignissimos veniam reiciendis iusto autem et tempora beatae facere maxime provident laborum! Facilis quibusdam perferendis ad dolor porro voluptates, corrupti, doloremque magnam, ut maxime itaque! Deserunt a mollitia soluta! Officia sequi exercitationem doloribus delectus. Sit quis eaque in, dolores ex ad consectetur similique sequi omnis facilis porro, cupiditate doloremque vero ipsum iure provident commodi molestiae. Magni, dolore distinctio iste placeat explicabo dolorem illum deleniti id, tenetur adipisci assumenda obcaecati fugiat eaque esse, tempora nam dicta ab possimus in saepe. Error necessitatibus aspernatur illo voluptatem aperiam nisi, sunt iste rerum adipisci enim, tempora soluta assumenda dicta accusamus iure dolor blanditiis maxime temporibus. Rem laborum iste fuga earum ducimus quod iure dolores odio assumenda quasi natus quae minus rerum, voluptas nemo nulla et odit perferendis numquam corporis. Debitis, qui. Ullam quasi quas unde, velit sed soluta totam doloremque ex atque voluptates vel commodi aut nemo eos reprehenderit fugiat eius fugit facere suscipit rem quae. Sint facere necessitatibus placeat cupiditate a sapiente impedit, repellat atque debitis magni molestiae quidem aliquid nemo cum doloribus iusto deserunt laudantium quasi. Excepturi eveniet earum iusto consectetur minima dolores, et esse voluptatum? Repudiandae reiciendis adipisci officiis amet dolorum aliquam minima itaque, est non magni iure qui omnis, libero minus, culpa nam ab ipsa similique! Quo mollitia sed sit maxime aut rerum delectus dolore laudantium? Voluptate, non assumenda nemo impedit architecto sed voluptatum aliquam earum dolore minus a error! Id molestias atque exercitationem possimus facere sequi, dolore ipsa ad, cupiditate illum, perspiciatis provident modi! Reiciendis quod aperiam sit distinctio, voluptas cum? Perspiciatis consequuntur magnam exercitationem possimus reiciendis voluptates harum nobis nisi optio consectetur sunt, officia totam dolorem iure porro suscipit odio eum fugiat, culpa veniam quam quos blanditiis laboriosam! Minima modi aliquid culpa corporis! Officia suscipit minima saepe id, tempore soluta voluptatibus ab sequi commodi architecto. Modi quaerat doloremque ut nulla, fuga consequatur eligendi repudiandae laudantium voluptate ipsum autem incidunt omnis possimus ab excepturi aliquid aperiam, distinctio deserunt repellendus. Incidunt, porro? Modi libero neque sit harum placeat deleniti id maxime? Maxime rerum quisquam animi eum ducimus odio, perspiciatis commodi illum atque porro veritatis tempora ex suscipit eius! Sit dolores est at expedita. Veritatis aspernatur ipsa obcaecati repudiandae possimus neque corrupti ipsum! Quia doloribus, ullam velit sit placeat unde iure ipsum. Delectus, blanditiis deserunt voluptatem aliquid assumenda excepturi quae eveniet cupiditate facilis at inventore est molestiae sequi id magni, voluptas, ut esse commodi. Tempore doloremque quam quasi officiis consequatur laudantium, doloribus quas vel iusto facilis magni voluptatibus dolor dolore! Ab consequuntur fugit nesciunt! Nobis magnam nesciunt velit? Architecto officia consequuntur obcaecati magnam magni deserunt ex. Id tempore expedita qui mollitia odit nisi facere, pariatur ullam laboriosam? Molestiae, ipsam. Facilis et numquam magni, incidunt veritatis dolorem quam amet quisquam sed totam unde officia vel dolor saepe tempora repellendus, in mollitia rem corporis? Iusto voluptate laborum esse dolore ex asperiores nobis delectus voluptatibus ea doloremque cum, dicta perferendis commodi quibusdam minus, dolorum amet praesentium odio veritatis minima voluptatum sunt error modi architecto. Officia autem aut explicabo ipsum laudantium vero iusto vitae qui molestiae voluptatibus ratione, libero magni eaque obcaecati fuga rerum id est? Aspernatur accusantium assumenda deleniti soluta mollitia iure dolor, perferendis, blanditiis adipisci illum sint quisquam magni quaerat corrupti molestiae obcaecati, commodi ut? Blanditiis quod accusamus obcaecati vitae sit consequuntur. Soluta commodi ab culpa facilis est, reprehenderit illo id autem in recusandae perspiciatis iure ea labore laudantium reiciendis expedita voluptatum doloremque nostrum nesciunt quasi. Impedit veritatis perspiciatis sequi assumenda ipsam excepturi vitae eligendi aliquid, cupiditate nam sint quod totam inventore odit. Aliquam nihil fugit laborum quaerat nesciunt, facilis inventore dignissimos dicta doloribus libero tempore quia. Rerum illo voluptas alias voluptatem.
-            <div class="clr"></div>
-        </div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+
     </div>
-    <div class="footer"></div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>
