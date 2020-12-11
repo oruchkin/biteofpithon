@@ -154,3 +154,92 @@ body {
 .circle:hover {
     background-color: #212121;
 }
+
+
+/* блок featured new 2ой */
+
+.featured {
+    height: 609px;
+    background-color: #8c8c8c;
+    
+}
+
+.menu-featured {
+    text-decoration: none;
+}
+
+.menu-link-featured-active {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    border-bottom: 3px solid #212121;
+    text-decoration: none;
+
+}
+
+.menu-list-featured {
+    list-style-type: none;
+    float: left;
+    padding: 1px;
+}
+
+.menu-link-featured {
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    border-bottom: 3px solid #6c6c6c;
+    text-decoration: none;
+}
+
+.header-featured {
+    padding-top: 63px;
+    
+}
+
+.explore-all {
+    color: #212121;
+    
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    
+    font-style: normal;
+    letter-spacing: 3.6px;
+    float:right;
+    text-decoration: none;
+}
+
+.tovari-featured {
+    clear: both;
+    background-color: green;
+    padding-top: 50px;
+}
+
+.ul-list-tovar-featured {
+    
+    background-color:yellow;
+    
+    
+}
+
+.list-tovar-featured {
+    list-style-type: none;
+    
+    background-color: blue;
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    line-break: 10px;
+    margin: 0 9px;
+}
