@@ -215,7 +215,7 @@ body {
     border-bottom: 1px solid #212121;
 }
 
-/* 2ой - блок с 4 элементами */
+/* 1ый блокВерхние ссылки Feature...New... Explore all */
 
 .block {
     margin-top: 50px;
@@ -288,4 +288,102 @@ body {
     letter-spacing: -1.2px;
 }
 
-/* третий блок*/
+/*второй блок*/
+.block2 {
+    margin-top: 120px;
+}
+
+.promobloks {
+    display: flex;
+}
+
+.promobloks a {
+    text-decoration: none;
+}
+
+.promobloks .promo1 {
+    width: 683px;
+    height: 683px;
+    background-image: url(img/promo-img1.jpg);
+    padding-left: 51px;
+}
+
+.promobloks .promo2 {
+    width: 683px;
+    height: 683px;
+    background-image: url(img/promo-img2.jpg);
+    padding-left: 51px;
+}
+
+.promo1 h3,
+.promo2 h3 {
+    text-transform: uppercase;
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 228px;
+    letter-spacing: 1px;
+}
+
+.promo1 h2,
+.promo2 h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.promo1 p,
+.promo2 p {
+    display: block;
+    color: #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    transform: scaleY(1.0022);
+    width: 374px;
+    letter-spacing: -0.2px;
+}
+
+.Order_button {
+    display: block;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 22.5px;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 3.2px;
+}
+
+.Order_button:hover {
+    background-color: #9c9c9c;
+}
+
+.Order_button:active {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    position: relative;
+    top: 2px;
+}
+
+/*3ый блок*/
+
+.link li {
+    display: block;
+    text-decoration: none;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 10px 13px;
+}
