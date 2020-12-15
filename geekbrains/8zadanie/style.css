@@ -401,7 +401,7 @@ body {
     margin-bottom: 70px;
 }
 
-/*4ый блок (2ой слайдер)*/
+/* (2ой слайдер)*/
 
 .slider-trending-hot {
     color: #e53935;
@@ -420,3 +420,74 @@ body {
 }
 
 /*4ый блок после слайдера*/
+
+.block4 {
+    width: 1170px;
+    height: 570px;
+    margin-top: 120px;
+    margin-left: 98px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+.block4 .left_subblock {
+    width: 570px;
+    height: 570px;
+}
+
+.left_subblock .promo3 {
+    width: 570px;
+    height: 570px;
+    background-image: url(img/product-1-lg.png);
+    padding-left: 51px;
+    box-sizing: border-box;
+}
+
+.promo3 h3 {
+    width: 115px;
+    height: 13px;
+    color: #1e88e5;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #1e88e5;
+    letter-spacing: 1.8px;
+    padding-top: 186px;
+}
+
+.promo3 h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 28px;
+}
+
+.promo3 h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 28px;
+}
+
+.right_subblock {
+    width: 570px;
+    height: 570px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.right_subblock .product-hover {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*5ый блок*/
