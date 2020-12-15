@@ -491,3 +491,249 @@ body {
 }
 
 /*5ый блок*/
+
+.block5 {
+    background-image: url(img/back-img.png);
+    width: 1366px;
+    height: 516px;
+    margin-top: 120px;
+    padding-top: 125px;
+    padding-left: 98px;
+    box-sizing: border-box;
+}
+
+.block5 .text-5 {
+    margin-top: 0px;
+    margin-left: 98px;
+}
+
+.text-5 h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    letter-spacing: 1.8px;
+}
+
+.text-5 h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+    letter-spacing: -3.2px;
+    width: 450px;
+    letter-spacing: -4.36px;
+}
+
+.text-5 p {
+    width: 413px;
+    height: 21px;
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    margin-top: 8px;
+}
+
+.magazins {
+    display: flex;
+    width: 280px;
+    height: 40px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.magazins a:hover {
+    transition: 0.5s;
+    -webkit-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    transform: scale(1.10);
+}
+
+/*Футер (подвал)*/
+
+.footer {
+    width: 1366px;
+    height: 384px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+}
+
+.menu-info {
+    display: flex;
+    margin-left: 98px;
+    list-style-type: none;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-top: 120px;
+}
+
+.menu-info .UsefulInfo {
+    padding-left: 168px;
+}
+
+.menu-info .LetsStay {
+    padding-left: 263px;
+}
+
+.infoblock {
+    display: flex;
+}
+
+.adress {
+    display: flex;
+    margin-left: 98px;
+    margin-top: 10px;
+    width: 221px;
+    height: 102px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+}
+
+.usefulText {
+    width: 422px;
+    margin-left: 85px;
+    display: flex;
+    flex-direction: row;
+}
+
+.useful1 {
+    width: 135px;
+    height: 62px;
+    margin-top: 7px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.useful2 {
+    margin-left: 108px;
+    margin-top: 7px;
+    width: 187px;
+    height: 63px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.LetsStayTxt p {
+    width: 363px;
+    height: 36px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-left: 85px;
+    margin-top: 8px;
+    letter-spacing: -0.2px;
+
+}
+
+input {
+    width: 330px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    margin-left: 85px;
+    margin-top: 15px;
+    padding: 0px 15px;
+
+}
+
+.inputEmail {
+    position: relative;
+}
+
+.inputEmail button {
+    position: absolute;
+    left: 410px;
+    top: 30px;
+    width: 21px;
+    height: 17px;
+    color: #6c6c6c;
+    font-family: icomoon;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.email {
+    width: 128px;
+    height: 14px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    bottom: 150px;
+    right: 150px;
+
+}
+
+.footer_down {
+    display: flex;
+    margin-top: 77px;
+    margin-left: 98px;
+    margin-right: 80px;
+    justify-content: space-between;
+}
+
+.footer_down .copyright {
+    width: 370px;
+    height: 9px;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.footer_down .terms {
+    width: 360px;
+    height: 12px;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.icons {
+    width: 130px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    line-height: 30px;
+    color: white;
+    background-color: #6c6c6c;
+    border-radius: 50%;
+
+    opacity: .8;
+    transition: .6s;
+}
+
