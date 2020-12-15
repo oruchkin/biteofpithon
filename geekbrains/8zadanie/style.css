@@ -387,3 +387,36 @@ body {
     font-weight: 700;
     padding: 10px 13px;
 }
+
+.block3 {
+    margin-top: 64px;
+    margin-left: 98px;
+    margin-right: 98px;
+    height: 770px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 70px;
+}
+
+/*4ый блок (2ой слайдер)*/
+
+.slider-trending-hot {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.slider2 {
+    height: 800px;
+    background-image: url(img/slider2.png);
+    position: relative;
+}
+
+/*4ый блок после слайдера*/
