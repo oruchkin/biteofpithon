@@ -1,0 +1,19 @@
+{% extends "articles/layout.html" %}
+
+{% block title %}последние статьи{% endblock %}
+
+{% block body %}
+bla bla
+{% if latest_aritcles_list %}
+
+
+    {% for a in latest_aritcles_list %}
+        <a href="{% url 'articles:detail' a.id %}">{{ a.article_title }}</a>
+    {% endfor %}
+
+
+{% else %}
+ Статьи не найдены :(
+{% endif %}
+
+{% endblock %}
