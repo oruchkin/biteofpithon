@@ -18,10 +18,10 @@ def test(request):
 
 def detail(request, article_id):
     try:
-        a = Article.ojbects.get(id = article_id)
+        a = Article.objects.get( id = article_id )
     except:
         raise Http404("Статья не найдена")
-    return render(request, 'articles/detail.html',{
+    return render(request, 'articles/detail.html', {
         'article': a
     })
 

@@ -8,5 +8,4 @@ urlpatterns = [
     path('', views.index, name="index"),
     path('test', views.test, name="test"),
     path('<int:article_id>/', views.detail, name="detail"),
-
 ]
