@@ -5,6 +5,13 @@ from django.http import HttpResponse, request
 
 
 def advertisement_list(request, *args, **kwargs):
+    advertisements = [
+        "первое",
+        "второе",
+        "третье",
+    ]
+
+
     return render(request, "advertisement/advertisement_list.html")
 
 
