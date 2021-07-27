@@ -9,11 +9,14 @@
 <body>
     <h1>Прошел все курсы на SkillBox. Продаю готовые домашние задания</h1>
     <ul>
-        <li><a href="{% url 'advertisement1' %}">Первый курс</a></li>
-        <li><a href="{% url 'advertisement2' %}">Второй курс</a></li>
-        <li><a href="{% url 'advertisement3' %}">Третий курс</a></li>
-        <li><a href="{% url 'advertisement4' %}">Четвертый курс</a></li>
-        <li><a href="{% url 'advertisement5' %}">Пятый курс</a></li>
+    {% for i in advertisements %}
+        <li>{{ i }}</li>
+    {% endfor %}
     </ul>
+
+    <a href="{% url 'contacts' %}">Контакты</a><br>
+    <a href="{% url 'about' %}">О компании</a><br>
+    <a href="{% url 'categories' %}">Категории</a><br>
+    <a href="{% url 'regions' %}">Регионы</a><br>
 </body>
 </html>
