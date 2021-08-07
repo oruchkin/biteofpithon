@@ -6,9 +6,9 @@
         </style>
         <script>
 
-            function showSection(section) {
+            function showSection(sectioN) {
                 
-                fetch(`/sections/${section}`)
+                fetch(`/sections/${sectioN}`)
                 .then(response => response.text())
                 .then(text => {
                     console.log(text);
@@ -19,7 +19,7 @@
             document.addEventListener('DOMContentLoaded', function() {
                 document.querySelectorAll('button').forEach(button => {
                     button.onclick = function() {
-                        showSection(this.dataset.section);
+                        showSection(this.dataset.section223);
                     };
                 });
             });
@@ -27,9 +27,9 @@
     </head>
     <body>
         <h1>Hello!</h1>
-        <button data-section="1">Section 1</button>
-        <button data-section="2">Section 2</button>
-        <button data-section="3">Section 3</button>
+        <button data-section223="1">Section 1</button>
+        <button data-section223="2">Section 2</button>
+        <button data-section223="3">Section 3</button>
         <div id="content">
         </div>
     </body>
