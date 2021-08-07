@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello!</title>
+        <script>
+            function hello() {
+                const heading = document.querySelector('h1')
+                if (heading.innerHTML === 'Hello!') {
+                    heading.innerHTML = "goodbye";
+                }
+                else {
+                    heading.innerHTML = "Hello!";
+                }
+
+                
+            }
+            
+        </script>
+    </head>
+    <body>
+        <h1>Hello!</h1>
+        <button onclick="hello()">Click here</button> <br><br>
+        
+        <form>
+            <input autofocus id="name" placeholder="Name" type="text">
+            <input type="submit">
+        </form>
+    </body>
+</html>
