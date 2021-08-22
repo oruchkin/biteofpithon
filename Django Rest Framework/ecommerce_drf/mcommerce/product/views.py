@@ -9,6 +9,8 @@ from rest_framework.views import APIView
 from . test import Message
 from product import serializer
 from rest_framework import status
+from rest_framework import generics
+from rest_framework import mixins
 
 # Create your views here.
 
@@ -72,3 +74,32 @@ class ProductDetailView(APIView):
     def delete(self, request, pid):
         product_obj = Product.objects.filter(product_id=pid).delete()
         return Response(status=status.HTTP_200_OK)
+
+
+class ListProductsMixins(mixins.ListModelMixin, generics.GenericAPIView):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer    
+
+    def get(self, request, *args, **kwargs):
+        return self.list(request, *args, **kwargs)
+
+
+class DetailedProductMixins(mixins.RetrieveModelMixin,
+                            mixins.UpdateModelMixin, 
+                            mixins.CreateModelMixin, 
+                            mixins.DestroyModelMixin,
+                            generics.GenericAPIView,):    
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
+    def get(self, request, *args, **kwargs):
+        return self.retrieve(request, *args, **kwargs)
+
+    def put(self, request, *args, **kwargs):
+        return self.update(request, *args, **kwargs)
+
+    def post(self, request, *args, **kwargs):
+        return self.create(request, *args, **kwargs)
+    
+    def delete(self, request, *args, **kwargs):
+        return self.destroy(request, *args, **kwargs)
