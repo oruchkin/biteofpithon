@@ -11,6 +11,8 @@ from product import serializer
 from rest_framework import status
 from rest_framework import generics
 from rest_framework import mixins
+from rest_framework import viewsets
+
 
 # Create your views here.
 
@@ -103,3 +105,25 @@ class DetailedProductMixins(mixins.RetrieveModelMixin,
     
     def delete(self, request, *args, **kwargs):
         return self.destroy(request, *args, **kwargs)
+
+
+class ListProductsGenerics(generics.ListAPIView):
+    queryset=Product.objects.all()
+    serializer_class = ProductSerializer
+
+
+class DetailedProductsGenerics(generics.RetrieveAPIView, generics.UpdateAPIView, generics.DestroyAPIView):    
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
+
+class SpecialroductsGenerics(generics.ListCreateAPIView, generics.RetrieveUpdateDestroyAPIView):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
+
+# View sets #best so far
+class ProductViewSet(viewsets.ModelViewSet): #ReadOnlyViewSet
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
