@@ -4,12 +4,10 @@ from django.urls import path
 from .views import ListProducts, ProductDetailView, ProductViewSet
 
 from . import views
-from rest_framework.routers import DefaultRouter
+from rest_framework.routers import DefaultRouter, SimpleRouter
 
-router = DefaultRouter()
-router.register(
-    'productviewset', ProductViewSet, basename='product'    
-)
+router = SimpleRouter()
+router.register('productviewset', ProductViewSet, basename='product')
 
 urlpatterns = [
     path("productlist/", views.listproducts, name="ListProduct_view"),
@@ -21,7 +19,7 @@ urlpatterns = [
     path("productgenericlist/",views.ListProductsGenerics.as_view(), name="productgenericlist"),
     path("productgenericdetail/<int:pk>/", views.DetailedProductsGenerics.as_view(), name="productgenericlist"),
     path("special/<int:pk>/", views.SpecialroductsGenerics.as_view(), name="spg"), 
-    
+
 ]+router.urls
 
 
