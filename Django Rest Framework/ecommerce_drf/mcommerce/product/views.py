@@ -3,7 +3,7 @@ from django.shortcuts import render
 from . models import Product
 from . serializer import ProductSerializer, MessageSerializer
 from rest_framework.response import Response
-from rest_framework.decorators import api_view, permission_classes
+from rest_framework.decorators import api_view, permission_classes, authentication_classes
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.views import APIView
 from . test import Message
@@ -12,11 +12,13 @@ from rest_framework import status
 from rest_framework import generics
 from rest_framework import mixins
 from rest_framework import viewsets
+from rest_framework.authentication import SessionAuthentication, BasicAuthentication, TokenAuthentication
 
 
 # Create your views here.
 
 @api_view(['GET', 'POST'])
+@authentication_classes([SessionAuthentication, BasicAuthentication, TokenAuthentication])
 @permission_classes([IsAuthenticated])
 def listproducts(request):
     query = Product.objects.all()
@@ -34,6 +36,9 @@ def list_messages(request):
 
 
 class ListProducts(APIView):
+    
+    authentication_classes = [SessionAuthentication, BasicAuthentication, TokenAuthentication]
+    permission_classes = [IsAuthenticated]
     
     def get(self, request): 
         query = Product.objects.all()

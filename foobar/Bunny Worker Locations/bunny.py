@@ -18,7 +18,7 @@ def solution(x, y):
  
     print(f"y_number {y_number}")
 
-solution(5,10)
+solution(5,6)
 
 #---  (3,4)
 #---> x 6, y 18
