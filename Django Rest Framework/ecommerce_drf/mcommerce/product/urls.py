@@ -23,3 +23,4 @@ urlpatterns = [
 ]+router.urls
 
 
+# curl -X GET http://127.0.0.1:8000/products/classproductlist/ -H 'Authorization: Token 9a590a4d36a697b3cd336067c62a61eeeb34a6ff'
