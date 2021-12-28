@@ -15,8 +15,11 @@ async def main():
     x = asyncio.create_task(fetch_data())
     y = asyncio.create_task(counter())
     
-    data = await x
-    print(data)
-    await y
+    #data = await x
+    #print(data)
+    #await y
+    
+    print(x)
+    print(y)
     
 asyncio.run(main())
