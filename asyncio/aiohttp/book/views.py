@@ -151,46 +151,44 @@ import json
 #         {"data": pokemon_data, "count": count, "time": total_time},
 #     )
 
+imgurl_sender = f"https://api.telegram.org/bot2027308400:AAGfchrhWkd5eFxQ_K9UB6G_Im8MS1zUM9A/sendPhoto?chat_id=299470913&photo=https://zooblog.ru/wp-content/uploads/2021/02/picture-13-4.jpeg"
 
 ###############
 # одновременная отправа .gather
 
-async def get_pokemon(session, url):
+async def url_sender(session, url):
     async with session.get(url) as res:
-        pokemon_data = await res.json()
-        return pokemon_data
+        task_sender_data = await res.json()
+        print("------------------------------------------------")
+        print(task_sender_data)
+        print("------------------------------------------------")
+        return task_sender_data
 
 
 
 async def example(request):
     
     starting_time = time.time()
-    pokemon_data = []
-    print(f"1 - {time.time()}")
+    task_sender_data = []
     actions = []
     users = ["299470913", "5033498348", "913592295", "675044345" ] 
+    text = "*bold* hello not bold _italic_"
+    parse_mode = "markdown"
     async with aiohttp.ClientSession() as session:
-        for num in users:
-            print("--------")
-            #url = f"https://pokeapi.co/api/v2/pokemon/{num}"
-            url = f"https://api.telegram.org/bot2027308400:AAGfchrhWkd5eFxQ_K9UB6G_Im8MS1zUM9A/sendMessage?chat_id={num}&text=hello"
-            actions.append(asyncio.ensure_future(get_pokemon(session, url)))
-            print(actions)
-            print(f"for loop {time.time()}")
-            print("--------")
-            
-        print(f"before gather - {time.time()}")
-        pokemon_res = await asyncio.gather(*actions)
-        for data in pokemon_res:
-            pokemon_data.append(data)
-    
-    print(actions)
-    print(f"after gather - {time.time()}")
-    count = len(pokemon_data)
+        for user in users:
+            url = f"https://api.telegram.org/bot2027308400:AAGfchrhWkd5eFxQ_K9UB6G_Im8MS1zUM9A/sendMessage?chat_id={user}&text={text}&parse_mode={parse_mode}"
+            actions.append(asyncio.ensure_future(url_sender(session, url)))
+
+        task_sender_data_result = await asyncio.gather(*actions)
+        for data in task_sender_data_result:
+            task_sender_data.append(data)
+
+
+    count = len(task_sender_data)
     total_time = time.time() - starting_time
     
     false = 0
-    for i in pokemon_data:
+    for i in task_sender_data:
         if i["ok"] == False:
             false += 1
 
@@ -200,5 +198,9 @@ async def example(request):
     return render(
         request,
         "index.html",
-        {"data": pokemon_data, "count": count, "time": total_time},
+        {"data": task_sender_data, "count": count, "time": total_time},
     )
+
+#https://api.telegram.org/bot2027308400:AAGfchrhWkd5eFxQ_K9UB6G_Im8MS1zUM9A/sendAudio?chat_id=5033498348&audio=https://5a73-89-222-217-38.ngrok.io/documents/documents/Numb.mp3
+
+#https://api.telegram.org/bot2027308400:AAGfchrhWkd5eFxQ_K9UB6G_Im8MS1zUM9A/sendAudio?chat_id=299470913&audio=https://5a73-89-222-217-38.ngrok.io/documents/documents/Numb.mp3
