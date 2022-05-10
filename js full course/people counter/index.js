@@ -12,12 +12,3 @@ function increment() {
     count_element.textContent = count
 } 
 
-
-function save() {
-    let temp_counter = count + " - "
-    save_elenemt.textContent += temp_counter
-    count = 0
-    count_element.textContent = count
-    //console.log(count)
-}
-
