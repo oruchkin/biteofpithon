@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index client frontend</title>
+
+    <link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/vendor/DataTables/css/datatables.min.css">
+    <link rel="stylesheet" href="/static/vendor/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/css/custom.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Blochain Client</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Wallet Generator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/make/transaction">Make Transaction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/view/transactions">View Transactions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h4 class="card-title">Wallet Generator</h4>
+                <p class="card-text">Click on the button bellow to generate your blockchain wallt</p>
+                <input id="input_generate_wallet" type="button" class="btn btn-primary btn-lg" value="Generate Wallet">
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <label for="" class="col-sm-2">Public Key:</label>
+            <div class="col-sm-10">
+                <textarea id="public_key" rows="5" class="form-control" readonly></textarea>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <label for="" class="col-sm-2">Private Key:</label>
+            <div class="col-sm-10">
+                <textarea id="private_key" rows="5" class="form-control" readonly></textarea>
+            </div>
+        </div>
+        <br>
+
+        <div id="warning" style="display:none" class="row">
+            <div class="cold-sm-12">
+                <div  role="alert" class="alert aler-danger">
+                    IMPORTANT
+                    <ul>
+                        <li>Save your private and public keys. These keys cannot be recovered!</li>
+                        <li>Don't share your private key with anyone!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="/static/vendor/DataTables/js/datatables.min.js"></script>
+    <script src="/static/vendor/DataTables/js/ellipsis.js"></script>
+
+    <script>
+        $(function() {
+            $('#input_generate_wallet').click(function() {
+                
+                $.ajax({
+                    url:'/wallet/new',
+                    type: 'GET',
+                    success: function(response) {
+                        document.getElementById("public_key").innerHTML = response['public_key'];
+                        document.getElementById("private_key").innerHTML = response['private_key'];
+                        document.getElementById("warning").style.display = 'block';
+                    },
+                    error: function(error){
+                        console.log(error)
+                    }
+                });
+
+            });
+        });
+
+        
+    </script>
+    
+</body>
+</html>
