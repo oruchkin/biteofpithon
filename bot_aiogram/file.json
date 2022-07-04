@@ -1,0 +1,1175 @@
+{
+    "response": {
+        "instagram": {
+            "comments": [{
+                    "description": "случайные, низкое качество",
+                    "min_limit": 20,
+                    "price": 1.5,
+                    "quality": "random_low_quality"
+                },
+                {
+                    "description": "случайные, высокое качество",
+                    "min_limit": 20,
+                    "price": 2.5,
+                    "quality": "random_high_quality"
+                },
+                {
+                    "description": "настраиваемые, высокое качество",
+                    "min_limit": 20,
+                    "price": 3,
+                    "quality": "customizable_high_quality"
+                },
+                {
+                    "description": "настраиваемые, премиум качество",
+                    "min_limit": 20,
+                    "price": 4,
+                    "quality": "customizable_premium_quality"
+                }
+            ],
+            "likes": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 10,
+                    "price": 0.05,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 10,
+                    "price": 0.07,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 10,
+                    "price": 0.1,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 50,
+                    "price": 0.4,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 50,
+                    "price": 0.7,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 50,
+                    "price": 2.5,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 50,
+                    "price": 5,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "reports": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 10,
+                    "price": 0.2,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 10,
+                    "price": 0.35,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 10,
+                    "price": 0.5,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 5,
+                    "price": 0.8,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 5,
+                    "price": 1.2,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 5,
+                    "price": 2.1,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 1,
+                    "price": 10,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "subs": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 100,
+                    "price": 0.09,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 100,
+                    "price": 0.14,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 100,
+                    "price": 0.25,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 10,
+                    "price": 0.4,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 10,
+                    "price": 0.7,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 10,
+                    "price": 3,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 10,
+                    "price": 5,
+                    "quality": "real_premium_quality"
+                }
+            ]
+        },
+        "telegram": {
+            "post_views": [{
+                "description": "офферы, 1 пост качество",
+                "min_limit": 10,
+                "price": 0.01,
+                "quality": "offers_1_post"
+            }],
+            "reports": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 10,
+                    "price": 0.5,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 10,
+                    "price": 0.7,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 10,
+                    "price": 1.2,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 5,
+                    "price": 1.8,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 5,
+                    "price": 2.2,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 5,
+                    "price": 3.1,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 1,
+                    "price": 10,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "subs": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 50,
+                    "price": 0.15,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 50,
+                    "price": 0.2,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 50,
+                    "price": 0.25,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 10,
+                    "price": 0.5,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 10,
+                    "price": 1.3,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 10,
+                    "price": 3,
+                    "quality": "real_premium_quality"
+                }
+            ]
+        },
+        "tiktok": {
+            "comments": [{
+                    "description": "случайные, низкое качество",
+                    "min_limit": 10,
+                    "price": 1.2,
+                    "quality": "random_low_quality"
+                },
+                {
+                    "description": "случайные, высокое качество",
+                    "min_limit": 10,
+                    "price": 2,
+                    "quality": "random_high_quality"
+                }
+            ],
+            "likes": [{
+                    "description": "живые, низкое качество",
+                    "min_limit": 10,
+                    "price": 0.4,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 10,
+                    "price": 0.7,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 10,
+                    "price": 1.2,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 10,
+                    "price": 3,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "reports": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 10,
+                    "price": 0.2,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 10,
+                    "price": 0.3,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 10,
+                    "price": 0.5,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 5,
+                    "price": 0.8,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 5,
+                    "price": 1.2,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 5,
+                    "price": 2.1,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 1,
+                    "price": 10,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "reposts": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 30,
+                    "price": 0.2,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 30,
+                    "price": 0.3,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 30,
+                    "price": 0.4,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 30,
+                    "price": 0.5,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 30,
+                    "price": 1,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 30,
+                    "price": 0.2,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 30,
+                    "price": 5,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "subs": [{
+                    "description": "живые, низкое качество",
+                    "min_limit": 10,
+                    "price": 1.3,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 10,
+                    "price": 2.5,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 10,
+                    "price": 3.4,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 10,
+                    "price": 6,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "views": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 100,
+                    "price": 0.0015,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 100,
+                    "price": 0.0022,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 100,
+                    "price": 0.0035,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 100,
+                    "price": 0.005,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 100,
+                    "price": 0.01,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 100,
+                    "price": 0.1,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 100,
+                    "price": 0.5,
+                    "quality": "real_premium_quality"
+                }
+            ]
+        },
+        "twitch": {
+            "reports": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 10,
+                    "price": 0.5,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 10,
+                    "price": 0.7,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 10,
+                    "price": 1.2,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 5,
+                    "price": 1.8,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 5,
+                    "price": 2.2,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 5,
+                    "price": 3.1,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 1,
+                    "price": 10,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "subs": [{
+                    "description": "живые, низкое качество",
+                    "min_limit": 1,
+                    "price": 0.5,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 1,
+                    "price": 0.75,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 1,
+                    "price": 1.2,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 1,
+                    "price": 2,
+                    "quality": "real_premium_quality"
+                }
+            ]
+        },
+        "twitter": {
+            "likes": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 20,
+                    "price": 0.6,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 20,
+                    "price": 1,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 20,
+                    "price": 1.5,
+                    "quality": "offers_high_quality"
+                }
+            ],
+            "retweets": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 500,
+                    "price": 2,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 500,
+                    "price": 3,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 500,
+                    "price": 5,
+                    "quality": "offers_high_quality"
+                }
+            ],
+            "subs": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 100,
+                    "price": 0.5,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 100,
+                    "price": 0.75,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 100,
+                    "price": 1.3,
+                    "quality": "offers_high_quality"
+                }
+            ]
+        },
+        "vk": {
+            "clip_views": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 1,
+                    "price": 0.025,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 1,
+                    "price": 0.045,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 1,
+                    "price": 0.07,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 1,
+                    "price": 0.1,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 1,
+                    "price": 0.15,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 1,
+                    "price": 0.27,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 1,
+                    "price": 0.4,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "comments": [{
+                    "description": "случайные, низкое качество",
+                    "min_limit": 10,
+                    "price": 0.2,
+                    "quality": "random_low_quality"
+                },
+                {
+                    "description": "случайные, высокое качество",
+                    "min_limit": 10,
+                    "price": 0.4,
+                    "quality": "random_high_quality"
+                },
+                {
+                    "description": "настраиваемые, высокое качество",
+                    "min_limit": 1,
+                    "price": 3.5,
+                    "quality": "customizable_high_quality"
+                },
+                {
+                    "description": "настраиваемые, премиум качество",
+                    "min_limit": 1,
+                    "price": 5,
+                    "quality": "customizable_premium_quality"
+                },
+                {
+                    "description": "любые, премиум качество",
+                    "min_limit": 1,
+                    "price": 10,
+                    "quality": "any_premium_quality"
+                }
+            ],
+            "friends": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 50,
+                    "price": 0.1,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 50,
+                    "price": 0.3,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 50,
+                    "price": 0.5,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 20,
+                    "price": 1,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 20,
+                    "price": 3,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 20,
+                    "price": 5,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 20,
+                    "price": 10,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "group_subs": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 50,
+                    "price": 0.1,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 50,
+                    "price": 0.3,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 50,
+                    "price": 0.5,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 10,
+                    "price": 1.5,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 10,
+                    "price": 3,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 10,
+                    "price": 5.5,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 10,
+                    "price": 10,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "likes": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 50,
+                    "price": 0.05,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 50,
+                    "price": 0.15,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 50,
+                    "price": 0.25,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 10,
+                    "price": 0.5,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 10,
+                    "price": 1,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 10,
+                    "price": 2.5,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 10,
+                    "price": 4,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "listenings": [{
+                    "description": "живые, низкое качество",
+                    "min_limit": 300,
+                    "price": 0.27,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 300,
+                    "price": 0.4,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 300,
+                    "price": 0.8,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 300,
+                    "price": 1.5,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "poll_votes": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 10,
+                    "price": 0.4,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 10,
+                    "price": 0.6,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 10,
+                    "price": 0.9,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 10,
+                    "price": 1.2,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 10,
+                    "price": 1.6,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 10,
+                    "price": 2.5,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 10,
+                    "price": 3,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "post_views": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 500,
+                    "price": 0.02,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 500,
+                    "price": 0.03,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 500,
+                    "price": 0.05,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 500,
+                    "price": 0.12,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 500,
+                    "price": 0.16,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 500,
+                    "price": 0.3,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 500,
+                    "price": 0.5,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "reply_comments": [{
+                    "description": "настраиваемые, высокое качество",
+                    "min_limit": 1,
+                    "price": 3.5,
+                    "quality": "customizable_high_quality"
+                },
+                {
+                    "description": "настраиваемые, премиум качество",
+                    "min_limit": 1,
+                    "price": 5,
+                    "quality": "customizable_premium_quality"
+                },
+                {
+                    "description": "любые, премиум качество",
+                    "min_limit": 1,
+                    "price": 10,
+                    "quality": "any_premium_quality"
+                }
+            ],
+            "reports": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 10,
+                    "price": 0.2,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 10,
+                    "price": 0.5,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 5,
+                    "price": 0.8,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 5,
+                    "price": 1.2,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 5,
+                    "price": 2.1,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 1,
+                    "price": 10,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "reposts": [{
+                    "description": "живые, низкое качество",
+                    "min_limit": 1,
+                    "price": 1.4,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 1,
+                    "price": 3,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 1,
+                    "price": 5.5,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 1,
+                    "price": 10,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "video_views": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 1,
+                    "price": 0.025,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 1,
+                    "price": 0.045,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 1,
+                    "price": 0.07,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 1,
+                    "price": 0.1,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 1,
+                    "price": 0.15,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 1,
+                    "price": 0.27,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 1,
+                    "price": 0.4,
+                    "quality": "real_premium_quality"
+                }
+            ]
+        },
+        "youtube": {
+            "comment_likes": [{
+                    "description": "живые, низкое качество",
+                    "min_limit": 20,
+                    "price": 0.9,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 20,
+                    "price": 1.2,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 20,
+                    "price": 1.5,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 20,
+                    "price": 5,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "comments": [{
+                    "description": "настраиваемые, высокое качество",
+                    "min_limit": 10,
+                    "price": 2.5,
+                    "quality": "customizable_high_quality"
+                },
+                {
+                    "description": "настраиваемые, премиум качество",
+                    "min_limit": 10,
+                    "price": 5,
+                    "quality": "customizable_premium_quality"
+                }
+            ],
+            "likes": [{
+                    "description": "офферы, среднее качество",
+                    "min_limit": 20,
+                    "price": 0.4,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 20,
+                    "price": 0.6,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 1,
+                    "price": 4,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 1,
+                    "price": 6,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 1,
+                    "price": 8,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "reports": [{
+                    "description": "офферы, низкое качество",
+                    "min_limit": 10,
+                    "price": 0.5,
+                    "quality": "offers_low_quality"
+                },
+                {
+                    "description": "офферы, среднее качество",
+                    "min_limit": 10,
+                    "price": 0.7,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 10,
+                    "price": 1.2,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 5,
+                    "price": 1.8,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 5,
+                    "price": 2.2,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 5,
+                    "price": 3.1,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 1,
+                    "price": 10,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "reposts": [{
+                    "description": "живые, низкое качество",
+                    "min_limit": 100,
+                    "price": 0.4,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 100,
+                    "price": 0.8,
+                    "quality": "real_premium_quality"
+                }
+            ],
+            "views": [{
+                    "description": "офферы, среднее качество",
+                    "min_limit": 50,
+                    "price": 0.12,
+                    "quality": "offers_medium_quality"
+                },
+                {
+                    "description": "офферы, высокое качество",
+                    "min_limit": 50,
+                    "price": 0.15,
+                    "quality": "offers_high_quality"
+                },
+                {
+                    "description": "живые, низкое качество",
+                    "min_limit": 500,
+                    "price": 0.35,
+                    "quality": "real_low_quality"
+                },
+                {
+                    "description": "живые, среднее качество",
+                    "min_limit": 500,
+                    "price": 0.45,
+                    "quality": "real_medium_quality"
+                },
+                {
+                    "description": "живые, высокое качество",
+                    "min_limit": 500,
+                    "price": 0.9,
+                    "quality": "real_high_quality"
+                },
+                {
+                    "description": "живые, премиум качество",
+                    "min_limit": 500,
+                    "price": 1.5,
+                    "quality": "real_premium_quality"
+                }
+            ]
+        }
+    }
+}
