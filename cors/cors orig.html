@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new job</title>
+</head>
+<body>
+    <button id="options">options</button>
+    <button id="post">post</button>
+</body>
+
+<script >
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    var url = "https://prod-dv8m8he4.ew.gateway.dev/users/user?username=%2B7";
+    var url = "http://makefriendsback.promo-miner.art/test_main/"
+
+    let options = document.getElementById('options');
+    options.addEventListener('click', () => {
+        
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("OPTIONS", url);
+
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.setRequestHeader("Authorization", "Service-Authorization: Token 8e2928a5f341533726ee6870c57652582megafon");
+
+        xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+            console.log(xhr.status);
+            console.log(xhr.responseText);
+        }};
+
+        xhr.send();
+    });
+
+
+
+
+
+    let post = document.getElementById('post');
+    post.addEventListener('click', () => {
+        
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", url);
+
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.setRequestHeader("Authorization", "Service-Authorization: Token 8e2928a5f341533726ee6870c57652582megafon");
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.setRequestHeader("Content-Length", "0");
+
+        xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+            console.log(xhr.status);
+            console.log(xhr.responseText);
+        }};
+
+        xhr.send();
+
+    });
+
+
+
+
+
+var input = document.getElementById("options");
+
+// Execute a function when the user presses a key on the keyboard
+input.addEventListener("keypress", function(event) {
+    console.log("aaa")
+
+    
+});
+
+
+
+});
+
+
+
+
+
+
+
+</script>
+</html>

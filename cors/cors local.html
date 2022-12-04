@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>make friends</title>
+</head>
+<body>
+    <button id="options">options</button>
+    <button id="post">post</button>
+</body>
+
+<script >
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    var url = "http://127.0.0.1:8000/request/cors/cors/"
+
+    let options = document.getElementById('options');
+    options.addEventListener('click', () => {
+        
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("OPTIONS", url);
+
+        xhr.setRequestHeader("Accept", "application/json");
+        // xhr.setRequestHeader("Authorization", "token b9112e99755195021fdd6e7dfb91080b1653a56a");
+        // xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+        // xhr.setRequestHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+
+        xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+            console.log(xhr.status);
+            console.log(xhr.responseText);
+        }};
+
+        xhr.send();
+    });
+
+
+
+
+
+    let post = document.getElementById('post');
+    post.addEventListener('click', () => {
+        
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", url);
+
+        xhr.setRequestHeader("Accept", "application/json");
+        // xhr.setRequestHeader("Authorization", "token b9112e99755195021fdd6e7dfb91080b1653a56a");
+        xhr.setRequestHeader("Content-Type", "application/json");
+
+
+        xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+            console.log(xhr.status);
+            console.log(xhr.responseText);
+        }};
+
+        xhr.send();
+
+    });
+
+
+
+
+
+var input = document.getElementById("options");
+
+// Execute a function when the user presses a key on the keyboard
+input.addEventListener("keypress", function(event) {
+    console.log("aaa")
+
+    
+});
+
+
+
+});
+
+
+
+
+
+
+
+</script>
+</html>
