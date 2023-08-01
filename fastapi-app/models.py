@@ -37,4 +37,9 @@ class PostModel(database.Base):
     created_at = sqlalchemy.Column(sqlalchemy.DATETIME, default=datetime.datetime.now())
     user = orm.relationship("UserModel", back_populates="posts")
 
-
+    # # это для того чтобы использовать from_orm
+    # class Config:
+    #     orm_mode = True
+    #     model_config = {
+    #         "from_attributes": True
+    #     }
