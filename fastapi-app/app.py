@@ -7,8 +7,16 @@ import sqlalchemy.orm as orm
 import schemas
 import services
 from typing import List
+from fastapi.middleware.cors import CORSMiddleware
 
 app = fastapi.FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["https://yandex.ru", "*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.post("/api/v1/users")
@@ -110,5 +118,3 @@ async def update_post_api(
     db_post = await services.get_post_detail(post_id, db)
 
     return await services.update_post(post_request, db_post, db)
-
-
