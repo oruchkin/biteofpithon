@@ -1,37 +1,49 @@
 import logo from './logo.svg';
 import './App.css';
+import BlogCard from "./BlogCard";
 
 function App() {
-    const firstName = 'Oleg';
-    const lastName = "Ruchkin";
-    const age = 31;
-    const job = "Developer";
-    const inputPlaceHolder = 'Enter Your Details const';
-
-    const detailsInputBox = <input placeholder={ inputPlaceHolder } autoComplete/>;
-
-    const mArr = [1, 2, 3, 4];
-
-    const mObj = {
-        name: 'Toto',
-        age: 55,
-    }
-
-    const getFullName = () => {
-        return `${ firstName } ${ lastName }`;
+    const blogObje = {
+        title: "Blog Title 1",
+        description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
     };
+
+    const blogArr = [
+        {
+            id: 1,
+            title: "Blog Title 1",
+            description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+        },
+        {
+            id: 2,
+            title: "Blog Title 2",
+            description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+        },
+        {
+            id: 3,
+            title: "Blog Title 3",
+            description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+        },
+    ];
+
+    const blogCards = blogArr.map((item, pos) => {
+        // console.log(item);
+        return (
+            <BlogCard className="blog" title={ item.title } description={ item.description } key={ pos }/>
+            //
+            // <div className="BlogCard" key={item.id}>
+            //     <h3>{ item.title }</h3>
+            //     <p>{ item.description }</p>
+            //     <p>{ item.id }</p>
+            // </div>
+        );
+    });
 
     return (
         <div className="App">
-            {/*<h3>Full Name: { `${ firstName } ${ lastName }` }</h3>*/ }
-            <h3>Full Name: { getFullName() }</h3>
-            <p>Age: { mObj.age } </p>
-            <p>Job: { job }</p>
-            {/*<input placeholder={ inputPlaceHolder } type="text"/>*/ }
-            { detailsInputBox }
-            <br/>
-            { mArr[0] }
-            {mObj.name}
+            { blogCards }
+
+
         </div>
     );
 }
