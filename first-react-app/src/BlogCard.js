@@ -1,5 +1,9 @@
+
+import { dumpLogs } from "./Utils";
+
 const BlogCard = (props) => {
-    console.log(props);
+    // console.log(props);
+    dumpLogs(props)
     return (
         <div className="BlogCard">
             <h3>{ props.title }</h3>
