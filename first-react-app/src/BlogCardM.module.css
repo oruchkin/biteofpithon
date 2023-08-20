@@ -5,13 +5,22 @@
     border-radius: 5px;
     box-shadow: 0 2px 5px #ccc;
     background-color: lightblue;
+    font-size: 18px;
 }
 
+.NewBlogCard > button {
+    font-size: 18px;
+}
 
 @media (min-device-width: 992px) {
-    .NewBlogCard{
+    .NewBlogCard {
         width: 45%;
         display: inline-block;
     }
+}
 
+
+.LikeCount {
+    font-weight: 600;
+    font-size: 22px;
 }
