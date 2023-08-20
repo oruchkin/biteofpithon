@@ -36,7 +36,7 @@ class App extends Component {
     };
 
 
-
+    // test 2
     // const blogArr = null;
 
     onLikeBtnClick (pos) {
